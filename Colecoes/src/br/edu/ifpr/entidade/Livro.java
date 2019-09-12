@@ -1,13 +1,27 @@
 package br.edu.ifpr.entidade;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Livro implements Comparable<Livro> {
 
 	private String isbn;
 	private String titulo;
+	
+	private Set<Exemplar> exemplares = new HashSet<Exemplar>();
 
 	// get e set
+	
 	public String getIsbn() {
 		return isbn;
+	}
+
+	public Set<Exemplar> getExemplares() {
+		return exemplares;
+	}
+
+	public void setExemplares(Set<Exemplar> exemplares) {
+		this.exemplares = exemplares;
 	}
 
 	public void setIsbn(String isbn) {
