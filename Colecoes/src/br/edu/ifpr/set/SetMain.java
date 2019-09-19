@@ -1,5 +1,6 @@
 package br.edu.ifpr.set;
 
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -15,6 +16,7 @@ public class SetMain {
 		Livro livro1 = new Livro("123456", "Java");
 		Livro livro2 = new Livro("789456", "PHP completo");
 		Livro livro3 = new Livro("465123", "C++ completo");
+		
 
 		// =========HashSet===============
 		System.out.println("=========HashSet===============");
@@ -132,6 +134,7 @@ public class SetMain {
 		for(Exemplar exemplar : livro1.getExemplares()){
 			System.out.println(exemplar);
 		}
+		
 		
 	}
 
