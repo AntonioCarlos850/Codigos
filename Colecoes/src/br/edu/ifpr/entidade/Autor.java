@@ -37,6 +37,7 @@ public class Autor {
 		return true;
 	}
 
+	
 	@Override
 	public String toString() {
 		return "Nome do autor:" + nome ;

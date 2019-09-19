@@ -23,6 +23,7 @@ public class Livro implements Comparable<Livro> {
 		return autores;
 	}
 
+	
 	public void setAutores(List<Autor> autores) {
 		this.autores = autores;
 	}

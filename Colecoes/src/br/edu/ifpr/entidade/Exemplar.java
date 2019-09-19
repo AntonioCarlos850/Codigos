@@ -14,6 +14,7 @@ public class Exemplar {
 		this.codigo = codigo;
 	}
 
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
